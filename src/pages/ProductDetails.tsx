@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { products } from "../data/products";
-import type { Product } from "../types";
+import type { Product } from "../interfaces";
 import { useCart } from "../context/CartContext";
 import { ShoppingCart, ArrowLeft, Minus, Plus } from "lucide-react";
 

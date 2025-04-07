@@ -1,7 +1,7 @@
 "use client";
 
 import { Minus, Plus, Trash2 } from "lucide-react";
-import type { CartItem as CartItemType } from "../types";
+import type { CartItem as CartItemType } from "../interfaces";
 import { useCart } from "../context/CartContext";
 
 interface CartItemProps {

@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import type { Product, Category } from "../types";
+import type { Product } from "../interfaces";
 import { products as allProducts } from "../data/products";
 import ProductCard from "../components/ProductCard";
 import ProductFilter from "../components/ProductFilter";
+import { Category } from "../types";
 
 const Products = () => {
   const [searchParams] = useSearchParams();

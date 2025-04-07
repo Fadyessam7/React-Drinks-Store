@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import type { Product } from "../types";
+import type { Product } from "../interfaces";
 import ProductCard from "./ProductCard";
 import { products } from "../data/products";
 import { ChevronLeft, ChevronRight } from "lucide-react";

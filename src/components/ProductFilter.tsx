@@ -3,7 +3,8 @@
 import type React from "react";
 
 import { useState } from "react";
-import type { Category, SortOption } from "../types";
+import type { SortOption } from "../interfaces";
+import { Category } from "../types";
 
 interface ProductFilterProps {
   onCategoryChange: (category: Category) => void;

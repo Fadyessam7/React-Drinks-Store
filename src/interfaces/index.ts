@@ -16,8 +16,6 @@ export interface CartItem {
   quantity: number;
 }
 
-export type Category = "all" | "wine" | "beer" | "spirits" | "non-alcoholic";
-
 export interface SortOption {
   label: string;
   value: string;
